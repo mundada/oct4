@@ -4,6 +4,8 @@ import Ashish from './Ashish.js';
 import Tick from './Tick.js';
 import logo from './AM.jpg';
 import logo1 from './buffalo.png';
+import Clock from './State.js';
+import Toggle from './Eventhandler.js';
 class App extends Component {
   render() {
     return (
@@ -17,8 +19,10 @@ class App extends Component {
           Website under construction.... <code>Will be coming soon!</code>
         </p>
         <Tick/>
+        <Clock />
         <Ashish/>
-        
+        <Toggle/>
+
         <footer classname= "App-footer">
         <img src={logo1} className="App-logo1" alt="logo1" />
         <h3 className="App-title">Thank You For Visiting this Page</h3>
