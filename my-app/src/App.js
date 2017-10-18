@@ -6,6 +6,11 @@ import logo from './AM.jpg';
 import logo1 from './buffalo.png';
 import Clock from './State.js';
 import Toggle from './Eventhandler.js';
+import ConditionalHeader from './ConditionalHeader';
+import Listandkey from './Listandkey';
+import TemperatureInput from './Liftingstate';
+import BasicExample from './ReactDom';
+/*import FancyBorder from './Composition';*/
 class App extends Component {
   render() {
     return (
@@ -18,11 +23,16 @@ class App extends Component {
         <p className="App-intro">
           Website under construction.... <code>Will be coming soon!</code>
         </p>
+      <ConditionalHeader/>
+        <Listandkey/>
         <Tick/>
-        <Clock />
         <Ashish/>
+        <Clock />
         <Toggle/>
-
+        <TemperatureInput/>
+       
+       
+        <BasicExample/>
         <footer classname= "App-footer">
         <img src={logo1} className="App-logo1" alt="logo1" />
         <h3 className="App-title">Thank You For Visiting this Page</h3>
@@ -30,6 +40,7 @@ class App extends Component {
       </div>
     );
   }
-}
+} 
+
 
 export default App;

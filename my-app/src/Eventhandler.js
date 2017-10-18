@@ -12,14 +12,24 @@ class Toggle extends React.Component {
     }
   
     handleClick1() {
+        console.log(this.state)
       this.setState(prevState => ({
         isToggleOn: !prevState.isToggleOn
       }));
+    // this.setState({
+    //     isToggleOn:false
+    // })
     }
     handleClick() {
+        let reverse = !this.state.isToggleOff;
+        console.log(this.state);
         this.setState(prevState => ({
-            isToggleoff: !prevState.isToggleOff
+            isToggleoff: reverse
         }));
+        
+        // this.setState({
+        //     isToggleOff:false
+        // })
     }
   
     render() {
