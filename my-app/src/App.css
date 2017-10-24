@@ -35,3 +35,49 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 4000px;
+  height: 2500px;
+  background-color: #F3E8E8;
+}
+
+.flex-item {
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 400px;
+  margin: 100px;
+}
+.img2 {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+}
+
+.App-img {
+  border: 3px solid #08181B;
+  border-radius: 4px;
+  padding: 15px;
+  width: 250px;
+}
+.App-img1 {
+  border: 3px solid #08181B;
+  border-radius: 4px;
+  padding: 15px;
+  width: 250px;
+}
+.App-img2 {
+  border: 3px solid #08181B;
+  border-radius: 4px;
+  padding: 15px;
+  width: 200px;
+}
+.App-img3 {
+  border: 3px solid #08181B;
+  border-radius: 4px;
+  padding: 15px;
+  width: 200px;
+}
+
